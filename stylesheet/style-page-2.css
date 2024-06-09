@@ -1,0 +1,177 @@
+body {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+
+header {
+    background: #333;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('./../assets/img/james-baltz-yihX4Rq-JsI.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container {
+    margin: 0 auto;
+}
+
+.hero .container h1 {
+    font-size: 64px;
+}
+
+.hero .container p {
+    font-size: 32px;
+}
+
+.hero .cta-button {
+    background: #ff6347;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-height: 350px;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 1em;
+    text-align: center;
+}
+
+th {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F8F9D7;
+}
+
+td {
+    font-size: 18px;
+}
+
+td img {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#navigation .container {
+    background-color: #E49BFF;
+    border-radius: 32px;
+}
+
+.nav-card {
+    padding: 24px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-card a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-card a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.nav-card span {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+footer {
+    background-color: #F8F9D7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+footer span {
+    padding: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+footer b {
+    color: #C738BD;
+}
